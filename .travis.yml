@@ -1,4 +1,4 @@
-
+os: linux
 
 branches:
   only:
@@ -7,7 +7,7 @@ branches:
 addons:
   apt:
     packages:
-      - tex
+      - texlive
       - doxygen
 
 script:
